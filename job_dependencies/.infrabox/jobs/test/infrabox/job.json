@@ -1,0 +1,1 @@
+{"project": {"name": "job_dependencies"}, "local": true, "job": {"name": "test"}, "parent_jobs": [{"end_date": "2017-02-08 20:36:23.187006", "name": "build", "machine_config": "vm_2c_2gb", "depends_on": [], "state": "finished", "start_date": "2017-02-08 20:36:19.703016"}]}

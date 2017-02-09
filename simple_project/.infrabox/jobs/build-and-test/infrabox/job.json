@@ -1,0 +1,1 @@
+{"project": {"name": "simple_project"}, "local": true, "job": {"name": "build-and-test"}, "parent_jobs": []}

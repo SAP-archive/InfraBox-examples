@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "jobs": [{
+        "type": "docker",
+        "name": "build",
+        "machine_config": "vm_2c_2gb",
+        "build_only": false,
+        "docker_file": "infrabox/build/Dockerfile"
+    }, {
+        "type": "docker",
+        "name": "test",
+        "machine_config": "vm_2c_2gb",
+        "build_only": false,
+        "docker_file": "infrabox/test/Dockerfile",
+        "depends_on": ["build"]
+    }]
+}

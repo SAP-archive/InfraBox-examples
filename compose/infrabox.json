@@ -1,0 +1,9 @@
+{
+    "version": 1,
+    "jobs": [{
+        "type": "docker-compose",
+        "name": "test",
+        "machine_config": "vm_2c_2gb",
+        "docker_compose_file": "infrabox/test/docker-compose.yml"
+    }]
+}
