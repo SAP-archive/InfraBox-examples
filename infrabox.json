@@ -3,18 +3,15 @@
     "jobs": [{
         "type": "workflow",
         "name": "simple_project",
-        "infrabox_file": "infrabox.json",
-        "base_path": "simple_project"
+        "infrabox_file": "simple_project/infrabox.json"
     }, {
         "type": "workflow",
         "name": "job_dependencies",
-        "infrabox_file": "infrabox.json",
-        "base_path": "job_dependencies"
+        "infrabox_file": "job_dependencies/infrabox.json"
     }, {
         "type": "workflow",
         "name": "compose",
-        "infrabox_file": "infrabox.json",
-        "base_path": "compose"
+        "infrabox_file": "compose/infrabox.json"
     }, {
         "type": "git",
         "name": "slack",
