@@ -33,9 +33,9 @@ See [Upload a workflow to InfraBox](https://infrabox.freshdesk.com/support/solut
 
 ## Examples
 
-1. /simple\_project Shows the most basic project setup you can have. It only contains one simple docker job.
-2. /job\_dependencies Extends the first examples and introduces you to the job dependency system in InfraBox.
-3. /compose Contains an example which show you how to run docker-compose jobs.
+1. [/simple_project](/simple_project) Shows the most basic project setup you can have. It only contains one simple docker job.
+2. [/job_dependencies](/job_dependencies) Extends the first examples and introduces you to the job dependency system in InfraBox.
+3. [/compose](/compose) Contains an example which show you how to run docker-compose jobs.
 
 See also [Job Definitions](https://infrabox.freshdesk.com/support/solutions/folders/23000027055) for documentation about using all the different job types.
 
