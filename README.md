@@ -22,7 +22,7 @@ $ infrabox run --job-name <job-name>
 For more details on how to run jobs see the *infraboxcli* [documentation](https://infrabox.freshdesk.com/support/solutions/articles/23000003378-run-jobs-locally).
 
 ## Upload jobs
-If you want to quickly offload work from your local machine to the *infrabox* infrastructure you can use
+If you want to quickly offload work from your local machine to the *InfraBox* infrastructure you can use
 
 ```bash
 $ infrabox push
@@ -47,7 +47,3 @@ In general it's a good idea to keep your containers small. So only install the
 libraries and components to really need. If possible use _alpine_ images, because
 they are much smaller then the _ubuntu_ images. This saves you time, because less
 data has to be downloaded for every job.
-
-## Improvements
-- use cache
-- pre-build base images

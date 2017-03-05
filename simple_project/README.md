@@ -8,7 +8,7 @@ other program written in other languages. This serves just as a simple demonstra
 
 - [/infrabox/build-and-test](/simple_project/infrabox/build-and-test): Dockerfile and scripts to build and run the tests
 - [/src](/simple_project/src): contains the c program
-- [/infrabox.json](/simple_project.json): contains the job definition
+- [/infrabox.json](/simple_project/infrabox.json): contains the job definition
 
 The docker context of each *docker build* is the *root* of a project. This is the
 same directory where the *infrabox.json* file is stored. So all *COPY*
