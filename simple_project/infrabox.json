@@ -3,7 +3,7 @@
     "jobs": [{
         "type": "docker",
         "name": "build-and-test",
-        "machine_config": "vm_2c_2gb",
+        "machine_config": "vm_2c_3gb",
         "build_only": false,
         "docker_file": "infrabox/build-and-test/Dockerfile"
     }]
