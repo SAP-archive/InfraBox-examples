@@ -5,9 +5,6 @@ services:
         build:
             context: ../../
             dockerfile: infrabox/server/Dockerfile
-        volumes:
-            - "${INFRABOX_PATH}:/infrabox"
-
     test:
         build:
             context: ../../
