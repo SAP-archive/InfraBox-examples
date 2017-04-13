@@ -3,13 +3,13 @@
     "jobs": [{
         "type": "docker",
         "name": "build",
-        "machine_config": "vm_2c_3gb",
+        "machine_config": "vm-1-2048",
         "build_only": false,
         "docker_file": "infrabox/build/Dockerfile"
     }, {
         "type": "docker",
         "name": "test",
-        "machine_config": "vm_2c_3gb",
+        "machine_config": "vm-1-2048",
         "build_only": false,
         "docker_file": "infrabox/test/Dockerfile",
         "depends_on": ["build"]

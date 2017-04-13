@@ -3,7 +3,7 @@
     "jobs": [{
         "type": "docker-compose",
         "name": "test",
-        "machine_config": "vm_2c_3gb",
+        "machine_config": "vm-1-2048",
         "docker_compose_file": "infrabox/test/docker-compose.yml"
     }]
 }
