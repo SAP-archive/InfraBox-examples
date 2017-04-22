@@ -15,6 +15,7 @@
     }, {
         "type": "git",
         "name": "slack",
+        "commit": "master",
         "git_url": "https://github.com/stege/infrabox-slack.git",
         "depends_on": ["simple_project", "job_dependencies", "compose"]
     }]
