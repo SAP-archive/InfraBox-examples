@@ -12,7 +12,7 @@ export NPM_CONFIG_LOGLEVEL=warn
 npm install
 
 echo "## Copy to cache"
-rm -rf /infrabox/cache
+rm -rf /infrabox/cache/node_modules
 mkdir -p /infrabox/cache/node_modules
 cp -Lr /project/node_modules/* /infrabox/cache/node_modules
 
