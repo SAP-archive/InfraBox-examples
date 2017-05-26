@@ -12,11 +12,5 @@
         "type": "workflow",
         "name": "compose",
         "infrabox_file": "compose/infrabox.json"
-    }, {
-        "type": "git",
-        "name": "slack",
-        "commit": "master",
-        "clone_url": "https://github.com/stege/infrabox-slack.git",
-        "depends_on": ["simple_project", "job_dependencies", "compose"]
     }]
 }
