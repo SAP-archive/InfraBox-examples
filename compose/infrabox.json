@@ -3,7 +3,7 @@
     "jobs": [{
         "type": "docker-compose",
         "name": "test",
-        "machine_config": "vm-1-2048",
+        "resources": { "limits": { "cpu": 1, "memory": 1024 } },
         "docker_compose_file": "infrabox/test/docker-compose.yml"
     }]
 }

@@ -3,7 +3,7 @@
     "jobs": [{
         "type": "docker",
         "name": "build-and-test",
-        "machine_config": "vm-1-2048",
+        "resources": { "limits": { "cpu": 1, "memory": 1024 } },
         "build_only": false,
         "docker_file": "infrabox/build-and-test/Dockerfile"
     }]
