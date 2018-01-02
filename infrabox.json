@@ -1,16 +1,4 @@
 {
     "version": 1,
-    "jobs": [{
-        "type": "workflow",
-        "name": "simple_project",
-        "infrabox_file": "simple_project/infrabox.json"
-    }, {
-        "type": "workflow",
-        "name": "job_dependencies",
-        "infrabox_file": "job_dependencies/infrabox.json"
-    }, {
-        "type": "workflow",
-        "name": "compose",
-        "infrabox_file": "compose/infrabox.json"
-    }]
+    "jobs": []
 }

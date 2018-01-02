@@ -1,11 +1,12 @@
 # InfraBox Examples
+[![Build Status](https://infrabox.ninja/api/v1/projects/21dc2924-f6b6-400f-aac2-b57833ef9787/state.svg)](https://infrabox.ninja/dashboard/#/project/ib-examples)
 
 ## Prerequisites
 
 To be able to run the examples locally you should install *infraboxcli*. See
-[How to install infraboxcli](https://infrabox.freshdesk.com/support/solutions/articles/23000003377-install-infraboxcli) for instructions.
+[How to install infraboxcli](https://github.com/InfraBox/cli) for instructions.
 
-## Run jobs
+## Run examples
 To run jobs locally cd into a directory which contains a *infrabox.json* file.
 Now simply run
 
@@ -16,28 +17,29 @@ $ infrabox run
 This will now run all the jobs defined in *infrabox.json*. If you want to run only a single job use:
 
 ```bash
-$ infrabox run --job-name <job-name>
+$ infrabox run <job-name>
 ```
 
-For more details on how to run jobs see the *infraboxcli* [documentation](https://infrabox.freshdesk.com/support/solutions/articles/23000003378-run-jobs-locally).
+For more details on how to run jobs see the *infraboxcli* [documentation](https://github.com/InfraBox/cli)
 
-## Upload jobs
-If you want to quickly offload work from your local machine to the *InfraBox* infrastructure you can use
+## Use InfraBox playground
+Instead of running the examples on your local machine you may also use the InfraBox playground at https://infrabox.ninja.
+You can use it for free with up to 1 CPU and 1024MB per job.
 
-```bash
-$ infrabox push
-```
+Quickstart Guides:
 
-See [Upload a workflow to InfraBox](https://infrabox.freshdesk.com/support/solutions/articles/23000003372-upload-a-workflow-to-infrabox) on how to use it.
-
+- [Connect your github repository](https://github.com/InfraBox/infrabox/blob/master/docs/guides/connect_github.md)
+- [Upload a workflow (you don't need a git repository)](https://github.com/InfraBox/infrabox/blob/master/docs/guides/upload.md)
 
 ## Examples
 
-1. [/simple_project](/simple_project) Shows the most basic project setup you can have. It only contains one simple docker job.
-2. [/job_dependencies](/job_dependencies) Extends the first examples and introduces you to the job dependency system in InfraBox.
-3. [/compose](/compose) Contains an example which show you how to run docker-compose jobs.
+1. [Hello World](/hello_world): Run you first hello world job on InfraBox
 
-See also [Job Definitions](https://infrabox.freshdesk.com/support/solutions/folders/23000027055) for documentation about using all the different job types.
+2. [/simple_project](/simple_project) Shows the most basic project setup you can have. It only contains one simple docker job.
+3. [/job_dependencies](/job_dependencies) Extends the first examples and introduces you to the job dependency system in InfraBox.
+4. [/compose](/compose) Contains an example which show you how to run docker-compose jobs.
+
+See also [Job Definitions](https://infrabox.ninja/docs/) for documentation about using all the different job types.
 
 ## Best practice
 Please have a look at the [Docker Best Practice Guide](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/).

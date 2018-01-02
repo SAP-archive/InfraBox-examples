@@ -6,4 +6,4 @@ on how to write a propper *docker-compose.yml*.
 As soon as one of the jobs exits all other jobs will be stopped. If the exit
 code of the first job is not 0 the job is marked as *failed*.
 
-See the [docker-compose Job Type](https://infrabox.freshdesk.com/support/solutions/articles/23000003365-job-type-docker-compose) for more details.
+See the [docker-compose Job Type](https://infrabox.ninja/docs/) for more details.
