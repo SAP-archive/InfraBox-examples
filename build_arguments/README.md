@@ -1,5 +1,5 @@
-Badges
-======
+Build Arguments
+===============
 
 Some Dockerfiles require you to set build arguments. You may set them in your job definition like this:
 
