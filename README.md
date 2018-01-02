@@ -37,7 +37,7 @@ Quickstart Guides:
 2. [A simple C++ project](/cpp_example): Compile and test a simple C++ program
 3. [Upload your testresult](/upload_testresult): If you run tests in your job you can get the results visualized by InfraBox
 4. [Create custom badges](/badges): An easy way of creating <img src="https://img.shields.io/badge/custom-badges-green.svg"> for your jobs
-
+5. [Docker build arguments](/build_arguments): Set Docker build arguments for your jobs
 
 See also [Job Definitions](https://infrabox.ninja/docs/) for documentation about using all the different job types.
 
