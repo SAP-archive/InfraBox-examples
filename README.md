@@ -36,10 +36,8 @@ Quickstart Guides:
 1. [Hello World](/hello_world): Run you first hello world job on InfraBox
 2. [A simple C++ project](/cpp_example): Compile and test a simple C++ program
 3. [Upload your testresult](/upload_testresult): If you run tests in your job you can get the results visualized by InfraBox
+4. [Create custom badges](/badges): An easy way of creating <img src="https://img.shields.io/badge/custom-badges-green.svg"> for your jobs
 
-
-3. [job_dependencies](/job_dependencies) Extends the first examples and introduces you to the job dependency system in InfraBox.
-4. [compose](/compose) Contains an example which show you how to run docker-compose jobs.
 
 See also [Job Definitions](https://infrabox.ninja/docs/) for documentation about using all the different job types.
 

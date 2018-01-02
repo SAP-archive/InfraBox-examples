@@ -1,0 +1,6 @@
+{
+    "version": 1,
+	"subject": "My Custom Badge",
+	"status": "It works!",
+	"color": "green"
+}
