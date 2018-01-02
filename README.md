@@ -1,5 +1,5 @@
 # InfraBox Examples
-[![Build Status](https://infrabox.ninja/api/v1/projects/21dc2924-f6b6-400f-aac2-b57833ef9787/state.svg)](https://infrabox.ninja/dashboard/#/project/ib-examples)
+[![Build Status](https://infrabox.ninja/api/v1/project/21dc2924-f6b6-400f-aac2-b57833ef9787/state.svg)](https://infrabox.ninja/dashboard/#/project/ib-examples)
 
 ## Prerequisites
 
@@ -34,10 +34,12 @@ Quickstart Guides:
 ## Examples
 
 1. [Hello World](/hello_world): Run you first hello world job on InfraBox
+2. [A simple C++ project](/cpp_example): Compile and test a simple C++ program
+3. [Upload your testresult](/upload_testresult): If you run tests in your job you can get the results visualized by InfraBox
 
-2. [/simple_project](/simple_project) Shows the most basic project setup you can have. It only contains one simple docker job.
-3. [/job_dependencies](/job_dependencies) Extends the first examples and introduces you to the job dependency system in InfraBox.
-4. [/compose](/compose) Contains an example which show you how to run docker-compose jobs.
+
+3. [job_dependencies](/job_dependencies) Extends the first examples and introduces you to the job dependency system in InfraBox.
+4. [compose](/compose) Contains an example which show you how to run docker-compose jobs.
 
 See also [Job Definitions](https://infrabox.ninja/docs/) for documentation about using all the different job types.
 
