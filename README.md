@@ -39,6 +39,7 @@ Quickstart Guides:
 4. [Create custom badges](/badges): An easy way of creating <img src="https://img.shields.io/badge/custom-badges-green.svg"> for your jobs
 5. [Docker build arguments](/build_arguments): Set Docker build arguments for your jobs
 6. [Caching](/caching): Cache data between runs to speed up your builds
+7. [Timeouts](/timeout): Set timeouts for your jobs
 
 See also [Job Definitions](https://infrabox.ninja/docs/) for documentation about using all the different job types.
 
