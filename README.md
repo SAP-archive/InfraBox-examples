@@ -40,6 +40,9 @@ Quickstart Guides:
 5. [Docker build arguments](/build_arguments): Set Docker build arguments for your jobs
 6. [Caching](/caching): Cache data between runs to speed up your builds
 7. [Timeouts](/timeout): Set timeouts for your jobs
+8. [Environment Variables](/environment_vars): Set environment vars for your jobs
+9. [Secrets](/secrets): How to handle passwords and other sensitive data
+10. [Deploy](/deploy): Deploy your docker containers to a registry
 
 See also [Job Definitions](https://infrabox.ninja/docs/) for documentation about using all the different job types.
 
