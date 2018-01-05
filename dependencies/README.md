@@ -31,7 +31,7 @@ In some situations you may want to have more control and execute a job even if i
 {
     "type": "docker",
     ...
-    "depends_on": [{"job": "parent", "on": ["finished", "error"]]
+    "depends_on": [{"job": "parent", "on": ["finished", "error"]}]
 }
 ```
 
