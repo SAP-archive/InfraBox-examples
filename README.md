@@ -43,6 +43,8 @@ Quickstart Guides:
 8. [Environment Variables](/environment_vars): Set environment vars for your jobs
 9. [Secrets](/secrets): How to handle passwords and other sensitive data
 10. [Deploy](/deploy): Deploy your docker containers to a registry
+11. [Job Dependencies](/dependencies): Run multiple jobs with dependencies
+12. [Transfer data](/transfer_data): Transfer data between your jobs
 
 See also [Job Definitions](https://infrabox.ninja/docs/) for documentation about using all the different job types.
 

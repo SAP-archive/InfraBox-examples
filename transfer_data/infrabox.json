@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "jobs": [{
+        "type": "docker",
+        "name": "producer",
+        "resources": { "limits": { "cpu": 1, "memory": 1024 } },
+        "build_only": false,
+        "docker_file": "infrabox/producer/Dockerfile"
+    }, {
+        "type": "docker",
+        "name": "consumer",
+        "resources": { "limits": { "cpu": 1, "memory": 1024 } },
+        "build_only": false,
+        "docker_file": "infrabox/consumer/Dockerfile",
+        "depends_on": ["producer"]
+    }]
+}
