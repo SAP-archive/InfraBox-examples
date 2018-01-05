@@ -1,5 +1,5 @@
 # InfraBox Examples
-[![Build Status](https://infrabox.ninja/api/v1/project/21dc2924-f6b6-400f-aac2-b57833ef9787/state.svg)](https://infrabox.ninja/dashboard/#/project/ib-examples)
+[![Build Status](https://infrabox.ninja/api/v1/projects/21dc2924-f6b6-400f-aac2-b57833ef9787/state.svg)](https://infrabox.ninja/dashboard/#/project/ib-examples)
 
 ## Prerequisites
 
