@@ -1,5 +1,5 @@
-Transfer Data
-=============
+Dependencies
+============
 
 So far the examples always used a single job, but InfraBox can do a lot more with your jobs. You can define workflows of multiple jobs with dependencies. In this example we create a workflow with two jobs. The *parent* job and the *child* job. If you define dependencies then InfraBox will make sure the jobs are executed in the proper order defined by the dependencies. So in this case the *parent* will be executed first and the *child* second. A dependency can be defined by the *depends_on* option in the job definition like this:
 
