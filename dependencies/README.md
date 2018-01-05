@@ -40,7 +40,7 @@ In this case the job is execute if the job *parent* ended with *finished* or *er
 - finished
 - failure
 - error
-- * (equals all previous states -> ["*"] -> ["finished", "error", "failure"]
+- \* (equals all previous states -> ["*"] -> ["finished", "error", "failure"])
 
 
 See the [Docker Job Documentation](https://infrabox.ninja/docs/) for a detailed explanation about the options of a docker job.
