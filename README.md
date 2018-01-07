@@ -47,7 +47,7 @@ Quickstart Guides:
 12. [Transfer data](/transfer_data): Transfer data between your jobs
 13. [Docker Compose](/docker_compose): Use docker compose in your job to run multiple containers
 13. [Workflows](/workflows): Split up your job graph into multiple workflows
-14. [GIT Workflows](/git_workflow): Included external workflows into your build
+14. [GIT Workflows](/git_workflows): Included external workflows into your build
 15. [Kubernetes Support](/kubernetes): Use the built-in kubernetes support for your e2e testing
 16. [Dynamic Workflows](/dynamic_workflows): Modify your job graph at runtime for full flexibility
 
