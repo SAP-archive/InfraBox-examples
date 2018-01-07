@@ -45,6 +45,14 @@ Quickstart Guides:
 10. [Deploy](/deploy): Deploy your docker containers to a registry
 11. [Job Dependencies](/dependencies): Run multiple jobs with dependencies
 12. [Transfer data](/transfer_data): Transfer data between your jobs
+13. [Docker Compose](/docker_compose): Use docker compose in your job to run multiple containers
+13. [Workflows](/workflows): Split up your job graph into multiple workflows
+14. [GIT Workflows](/git_workflow): Included external workflows into your build
+15. [Kubernetes Support](/kubernetes): Use the built-in kubernetes support for your e2e testing
+16. [Dynamic Workflows](/dynamic_workflows): Modify your job graph at runtime for full flexibility
+
+## External Service Integrations
+1. [Slack](/slack): Report your build status
 
 See also [Job Definitions](https://infrabox.ninja/docs/) for documentation about using all the different job types.
 

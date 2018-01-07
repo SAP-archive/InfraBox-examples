@@ -1,0 +1,9 @@
+{
+    "version": 1,
+    "jobs": [{
+        "type": "git",
+        "name": "external",
+        "clone_url": "https://github.com/InfraBox/cli.git",
+        "commit": "master"
+    }]
+}

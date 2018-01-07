@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "jobs": [{
+        "type": "docker",
+        "name": "test",
+        "resources": { "limits": { "cpu": 1, "memory": 1024 } },
+        "build_only": false,
+        "docker_file": "Dockerfile"
+    }, {
+        "type": "git",
+        "name": "external",
+        "clone_url": "https://github.com/InfraBox/slack.git",
+        "commit": "master",
+        "depends_on": [{"job": "test", "on": ["*"]}]
+    }]
+}
