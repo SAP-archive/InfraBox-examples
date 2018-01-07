@@ -15,7 +15,7 @@ Often you need to use some secret values like passwords for deploying your proje
     }]
 ```
 
-You may use secrets as:
+You may use secrets in:
 
 - [Environment variables](/environment_variables)
 - [Deployments](/deployments)
