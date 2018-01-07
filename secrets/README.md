@@ -17,8 +17,8 @@ Often you need to use some secret values like passwords for deploying your proje
 
 You may use secrets as:
 
-    - [Environment variables](/environment_variables)
-    - [Deployments](/deployments)
+- [Environment variables](/environment_variables)
+- [Deployments](/deployments)
 
 If you want to run a job with secret locally have a look at the [infraboxcli documentation]() about working with secrets locally.
 
