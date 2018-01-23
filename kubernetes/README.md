@@ -3,6 +3,7 @@ Kubernetes support
 
 If you build an application which is supposed to run on kubernetes then at some point in time  you would also do some testing directly on a kubernetes clusters. With InfraBox this is extremely easy, because InfraBox itself runs on kubernetes and can therefore easily provide a separeted kubernetes namespace for your tests. To provision a kubernetes namespace for your job add it to your resource request of your job definition:
 
+```json
 {
     "version": 1,
     "jobs": [{
@@ -16,6 +17,7 @@ If you build an application which is supposed to run on kubernetes then at some 
         }
     }]
 }
+```
 
 InfraBox will then create a kubernetes namespace and a corresponding service account for the job. It will also delete the namespace again after your job has finished.
 
