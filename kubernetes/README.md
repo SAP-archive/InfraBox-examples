@@ -12,7 +12,7 @@ If you build an application which is supposed to run on kubernetes then at some 
         "build_only": false,
         "docker_file": "Dockerfile",
         "resources": {
-            "limits": { "cpu": 1, "memory": 1024 }
+            "limits": { "cpu": 1, "memory": 1024 },
             "kubernetes": { "limits": { "cpu": 1, "memory": 1024 } }
         }
     }]
