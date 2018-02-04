@@ -13,8 +13,18 @@ kubectl config set-credentials default-admin \
 kubectl config set-context default-system \
     --cluster=default-cluster \
     --user=default-admin \
-    --namespace=$(cat /var/run/secrets/kubernetes.io/serviceaccount/namespace)
+    --namespace=$NAMESPACE
 
 kubectl config use-context default-system
 
 kubectl get pods
+
+# Install helm
+helm init --tiller-namespace $NAMESPACE
+
+# wait for tiller to be ready
+sleep 20
+
+helm --tiller-namespace $NAMESPACE install --wait --set persistence.enabled=false stable/postgresql
+
+helm --tiller-namespace $NAMESPACE ls

@@ -6,4 +6,10 @@ RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s
     chmod +x ./kubectl && \
     mv ./kubectl /usr/local/bin/kubectl
 
+RUN curl -LO https://storage.googleapis.com/kubernetes-helm/helm-v2.7.0-linux-amd64.tar.gz && \
+    tar xvf helm-v2.7.0-linux-amd64.tar.gz && \
+    mv ./linux-amd64/helm /usr/bin/helm && \
+    rm -rf linux-amd64 && \
+    rm helm-v2.7.0-linux-amd64.tar.gz
+
 CMD /infrabox/context/infrabox/hello-kubernetes/entrypoint.sh
