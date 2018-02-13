@@ -19,7 +19,6 @@ With InfraBox you can not only build and run containers, but you can also deploy
             "username": "my_username",
             "password": { "$secret": "QUAY_PASSWORD" }
         }]
-	}]
 }
 ```
 
