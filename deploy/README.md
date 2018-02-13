@@ -7,18 +7,19 @@ With InfraBox you can not only build and run containers, but you can also deploy
 {
 	"version": 1,
 	"jobs": [{
-        "type": "docker",
-        "name": "test",
-        "docker_file": "infrabox/test/Dockerfile",
-        "build_only": true,
-        "resources": { "limits": { "cpu": 1, "memory": 1024 } },
-        "deployments": [{
-            "type": "docker-registry",
-            "host": "quay.io/infrabox",
-            "repository": "test",
-            "username": "my_username",
-            "password": { "$secret": "QUAY_PASSWORD" }
-        }]
+		"type": "docker",
+		"name": "test",
+		"docker_file": "infrabox/test/Dockerfile",
+		"build_only": true,
+		"resources": { "limits": { "cpu": 1, "memory": 1024 } },
+		"deployments": [{
+		    "type": "docker-registry",
+		    "host": "quay.io/infrabox",
+		    "repository": "test",
+		    "username": "my_username",
+		    "password": { "$secret": "QUAY_PASSWORD" }
+		}]
+	}]
 }
 ```
 
