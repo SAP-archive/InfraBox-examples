@@ -1,6 +1,7 @@
 # InfraBox Examples
+This repo contains examples for [InfraBox](https://github.com/SAP/InfraBox), a continuous integration system.
 
-## Prerequisites
+## Requirements
 
 To be able to run the examples locally you should install *infraboxcli*. See
 [How to install infraboxcli](https://github.com/SAP/InfraBox-cli) for instructions.
@@ -46,6 +47,11 @@ For more details on how to run jobs see the *infraboxcli* [documentation](https:
 
 See also [Job Definitions](https://github.com/SAP/InfraBox/blob/master/docs/doc.md) for documentation about using all the different job types.
 
+## How to get support
+If you need help please post your questions to [Stack Overflow](https://stackoverflow.com/questions/tagged/infrabox).
+In case you found a bug please open a [Github Issue](https://github.com/InfraBox/infrabox/issues).
+Follow us on Twitter: [@Infra_Box](https://twitter.com/Infra_Box) or have look at our Slack channel [infrabox.slack.com](https://infrabox.slack.com/).
+
 ## Best practice
 Please have a look at the [Docker Best Practice Guide](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/).
 It contains several useful tips on how to write good Dockerfiles.
@@ -54,3 +60,7 @@ In general it's a good idea to keep your containers small. So only install the
 libraries and components to really need. If possible use _alpine_ images, because
 they are much smaller then the _ubuntu_ images. This saves you time, because less
 data has to be downloaded for every job.
+
+## License
+Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
+This file is licensed under the Apache Software License, v. 2 except as noted otherwise in the [LICENSE file](LICENSE).
