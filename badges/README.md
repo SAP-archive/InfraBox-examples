@@ -14,4 +14,4 @@ With InfraBox you can easily create badges like <img src="https://img.shields.io
 
 Every time your job is exected a badge will be generated for you. You can get a static link to it in the InfraBox Dashboard for including it somewhere else.
 
-See also the [documentation](https://infrabox.ninja/docs/#create-badges) for creating badges.
+See also the [documentation](https://github.com/SAP/InfraBox/blob/master/docs/doc.md#badges) for creating badges.

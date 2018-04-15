@@ -21,6 +21,6 @@ You may use secrets in:
 - [Environment variables](/environment_variables)
 - [Deployments](/deployments)
 
-If you want to run a job with secret locally have a look at the [infraboxcli documentation](https://github.com/InfraBox/cli#secrets) about working with secrets locally.
+If you want to run a job with secret locally have a look at the [infraboxcli documentation](https://github.com/SAP/InfraBox-cli#secrets) about working with secrets locally.
 
-See also the [documentation](https://infrabox.ninja/docs/).
+See also the [documentation](https://github.com/SAP/InfraBox/blob/master/docs/doc.md).

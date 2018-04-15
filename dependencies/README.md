@@ -35,12 +35,12 @@ In some situations you may want to have more control and execute a job even if i
 }
 ```
 
-In this case the job is execute if the job *parent* ended with *finished* or *error*. Available states are:
+In this case the job is execute if the job *parent* ended with `finished` or `error`. Available states are:
 
-- finished
-- failure
-- error
-- \* (equals all previous states -> ["*"] -> ["finished", "error", "failure"])
+- `finished`
+- `failure`
+- `error`
+- `*` (equals all previous states -> `["*"]` -> `["finished", "error", "failure"]`)
 
 
-See the [Docker Job Documentation](https://infrabox.ninja/docs/) for a detailed explanation about the options of a docker job.
+See the [Docker Job Documentation](https://github.com/SAP/InfraBox/blob/master/docs/doc.md) for a detailed explanation about the options of a docker job.

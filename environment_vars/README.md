@@ -18,4 +18,4 @@ You may also set environment variables for your jobs. They will be available es 
 
 If you want to set secrets like passwords or other data you don't want to store in your job definition (because it's cleartext in your repository) check out the [secrets examples](/secrets).
 
-See also the [documentation](https://infrabox.ninja/docs/#build-arguments) for environment variables.
+See also the [documentation](https://github.com/SAP/InfraBox/blob/master/docs/doc.md#environment-variables) for environment variables.

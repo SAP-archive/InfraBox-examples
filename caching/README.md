@@ -15,4 +15,4 @@ The second run should print:
 Cache exists
 ```
 
-See also the [documentation](https://infrabox.ninja/docs/#build-arguments) for how to use the cache.
+See also the [documentation](https://github.com/SAP/InfraBox/blob/master/docs/doc.md#cache-configuration) for how to use the cache.

@@ -16,4 +16,4 @@ Some Dockerfiles require you to set build arguments. You may set them in your jo
     }]
 ```
 
-See also the [documentation](https://infrabox.ninja/docs/#build-arguments) for build arguments.
+See also the [documentation](https://github.com/SAP/InfraBox/blob/master/docs/doc.md#build-arguments) for build arguments.

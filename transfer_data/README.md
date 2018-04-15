@@ -5,4 +5,4 @@ In the previous example we have seen how to define dependencies between jobs. We
 
 To produce data every job can simply put some files into _/infrabox/output_. The content of this directory will be made available to all *consumer* jobs. The *consumers* may access the data in */infrabox/inputs/<producer_job_name>/*. I.e. job *A* creates file *hello.txt* in */infrabox/output* and job B *depends_on* *A* it can access the file as */infrabox/inputs/A/hello.txt*.
 
-See the [Docker Job Documentation](https://infrabox.ninja/docs/) for a detailed explanation about the options of a docker job.
+See the [Docker Job Documentation](https://github.com/SAP/InfraBox/blob/master/docs/doc.md) for a detailed explanation about the options of a docker job.

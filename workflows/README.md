@@ -16,4 +16,4 @@ If your project becomes bigger and you run many jobs for a build you may find a 
 
 You may include multiple sub-workflows or even nest them.
 
-See the [Docker Job Documentation](https://infrabox.ninja/docs/) for a detailed explanation about the options of a workflow.
+See the [Docker Job Documentation](https://github.com/SAP/InfraBox/blob/master/docs/doc.md#job-workflow) for a detailed explanation about the options of a workflow.

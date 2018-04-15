@@ -27,4 +27,4 @@ You may deploy the same image to several registries. Also note in this example w
 
 The password needs to be stored as [secret](/secrets).
 
-See also the [documentation](https://infrabox.ninja/docs/#using-image-registries) for using image registries.
+See also the [documentation](https://github.com/SAP/InfraBox/blob/master/docs/doc.md#deployments) for using image registries.

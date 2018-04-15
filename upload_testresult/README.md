@@ -6,4 +6,4 @@ Basically all you have to do is to copy your result file to _/infrabox/upload/te
 
 <img src="images/testresult.png">
 
-For a list of all supported file formats have a look at the [documentation](https://infrabox.ninja/docs/#upload-testresult).
+For a list of all supported file formats have a look at the [documentation](https://github.com/SAP/InfraBox/blob/master/docs/doc.md#upload-test-result).

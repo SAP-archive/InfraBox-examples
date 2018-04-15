@@ -19,4 +19,4 @@ To make use of it define a job like this:
 
 This example would now clone the [infraboxcli](https://github.com/infrabox/cli) repo and include it as workflow. For this to work the included repo must have an *infrabox.json* file in its root directory.
 
-See the [Docker Job Documentation](https://infrabox.ninja/docs/) for a detailed explanation about the options of a git job.
+See the [Docker Job Documentation](https://github.com/SAP/InfraBox/blob/master/docs/doc.md#job-git) for a detailed explanation about the options of a git job.

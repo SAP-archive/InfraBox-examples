@@ -15,4 +15,4 @@ same directory where the *infrabox.json* file is stored. So all *COPY*
 commands in a *Dockerfile* should use the full path starting from the root
 of the project.
 
-See the [Docker Job Documentation](https://infrabox.ninja/docs/) for a detailed explanation about the options of a docker job.
+See the [Docker Job Documentation](https://github.com/SAP/InfraBox/blob/master/docs/doc.md) for a detailed explanation about the options of a docker job.
