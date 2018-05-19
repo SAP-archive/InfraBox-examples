@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "jobs": [{
+        "type": "docker",
+        "name": "test",
+        "docker_file": "infrabox/test/Dockerfile",
+        "build_only": true,
+        "resources": { "limits": { "cpu": 1, "memory": 1024 } },
+        "deployments": [{
+            "type": "gcr",
+            "host": "us.gcr.io",
+            "repository": "my-project-id/my-repo",
+            "service_account": { "$secret": "GCR_SERVICE_ACCOUNT" }
+        }]
+    }]
+}

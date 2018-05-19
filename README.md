@@ -33,7 +33,9 @@ For more details on how to run jobs see the *infraboxcli* [documentation](https:
 7. [Timeouts](/timeout): Set timeouts for your jobs
 8. [Environment Variables](/environment_vars): Set environment vars for your jobs
 9. [Secrets](/secrets): How to handle passwords and other sensitive data
-10. [Deploy](/deploy): Deploy your docker containers to a registry
+10. Push Images
+    - [Push to Docker registry](/deploy): Deploy your docker images to a registry
+    - [Push to GCR](/deploy): Deploy your docker images to a GCR
 11. [Job Dependencies](/dependencies): Run multiple jobs with dependencies
 12. [Transfer data](/transfer_data): Transfer data between your jobs
 13. [Docker Compose](/docker_compose): Use docker compose in your job to run multiple containers
