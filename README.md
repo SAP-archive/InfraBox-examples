@@ -41,7 +41,9 @@ For more details on how to run jobs see the *infraboxcli* [documentation](https:
 13. [Docker Compose](/docker_compose): Use docker compose in your job to run multiple containers
 13. [Workflows](/workflows): Split up your job graph into multiple workflows
 14. [GIT Workflows](/git_workflows): Included external workflows into your build
-15. [Kubernetes Support](/kubernetes): Use the built-in kubernetes support for your e2e testing
+15. Services
+    - [Kubernetes Namespace](/service_namespace): Provision a Kubernetes namespaces for your tests
+    - [Kubernetes Cluster (GKE)](/service_gke): Provision a Kubernetes Cluster for your tests
 16. [Dynamic Workflows](/dynamic_workflows): Modify your job graph at runtime for full flexibility
 
 ## External Service Integrations

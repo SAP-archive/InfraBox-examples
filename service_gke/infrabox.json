@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "jobs": [{
+        "type": "docker",
+        "name": "hello-kubernetes",
+        "build_only": false,
+        "docker_file": "infrabox/hello-kubernetes/Dockerfile",
+        "resources": {
+            "limits": { "cpu": 1, "memory": 1024 }
+        },
+        "services": [{
+            "apiVersion": "gcp.service.infrabox.net/v1alpha1",
+            "kind": "GKECluster",
+            "metadata": {
+              "name": "my-cluster"
+            }
+        }]
+    }]
+}
