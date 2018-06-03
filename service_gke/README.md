@@ -21,14 +21,15 @@ If you build an application which is supposed to run on kubernetes then at some 
                 "name": "my-cluster"
             },
             "spec": {
-                "diskSize": "100",
+                "zone": "us-east1-b",
+                "diskSize": 100,
                 "machineType": "n1-standard-1",
-                "enableNetworkPolicy": "false",
-                "numNodes": "1",
-                "preemptible": "true",
-                "enableAutoscaling": "false",
-                "maxNodes": "1",
-                "minNodes": "1"
+                "enableNetworkPolicy": false,
+                "numNodes": 1,
+                "preemptible": true,
+                "enableAutoscaling": false,
+                "maxNodes": 1,
+                "minNodes": 1
             }
         }]
     }]
