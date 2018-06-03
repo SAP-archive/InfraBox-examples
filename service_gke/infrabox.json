@@ -12,7 +12,10 @@
             "apiVersion": "gcp.service.infrabox.net/v1alpha1",
             "kind": "GKECluster",
             "metadata": {
-              "name": "my-cluster"
+                "name": "my-cluster"
+            },
+            "spec": {
+                "zone": "us-east1-b"
             }
         }]
     }]
