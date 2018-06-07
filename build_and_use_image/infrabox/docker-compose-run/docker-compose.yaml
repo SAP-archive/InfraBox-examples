@@ -1,0 +1,4 @@
+version: '3.2'
+services:
+  webapp:
+    image: 192.168.1.31:5000/my-image:build_$INFRABOX_BUILD_NUMBER

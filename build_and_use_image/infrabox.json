@@ -1,0 +1,56 @@
+{
+    "jobs": [
+        {
+            "build_only": true,
+            "docker_file": "infrabox/build-image/Dockerfile",
+            "name": "build-image",
+            "resources": {
+                "limits": {
+                    "cpu": 1,
+                    "memory": 1024
+                }
+            },
+            "type": "docker",
+            "deployments": [{
+                "type": "docker-registry",
+                "host": "192.168.1.31:5000",
+                "repository": "my-image"
+            }]
+        }, {
+            "image": "192.168.1.31:5000/my-image:build_$INFRABOX_BUILD_NUMBER",
+            "name": "docker-image-run",
+            "resources": {
+                "limits": {
+                    "cpu": 1,
+                    "memory": 1024
+                }
+            },
+            "type": "docker-image",
+            "depends_on": ["build-image"]
+        }, {
+            "build_only": false,
+            "name": "docker-run",
+            "docker_file": "infrabox/docker-run/Dockerfile",
+            "resources": {
+                "limits": {
+                    "cpu": 1,
+                    "memory": 1024
+                }
+            },
+            "type": "docker",
+            "depends_on": ["build-image"]
+        }, {
+            "name": "docker-compose-run",
+            "docker_compose_file": "infrabox/docker-compose-run/docker-compose.yaml",
+            "resources": {
+                "limits": {
+                    "cpu": 1,
+                    "memory": 1024
+                }
+            },
+            "type": "docker-compose",
+            "depends_on": ["build-image"]
+        }
+    ],
+    "version": 1
+}
