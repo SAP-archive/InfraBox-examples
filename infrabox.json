@@ -1,4 +1,10 @@
 {
     "version": 1,
-    "jobs": []
+    "jobs": [{
+        "type": "docker",
+        "name": "build-and-test",
+        "resources": { "limits": { "cpu": 1, "memory": 1024 } },
+        "build_only": false,
+        "docker_file": "cpp_example/infrabox/build-and-test/Dockerfile"
+    }]
 }
