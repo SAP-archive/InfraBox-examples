@@ -8,7 +8,7 @@ RUN cd /usr/src/gtest/ && \
     make && \
     cp *.a /usr/lib
 
-COPY . simple_project
+COPY ./cpp_example simple_project
 
 # just to make sure we can also run it with docker on windows
 RUN dos2unix /simple_project/infrabox/build-and-test/entrypoint.sh
