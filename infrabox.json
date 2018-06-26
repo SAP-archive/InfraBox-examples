@@ -2,9 +2,9 @@
     "version": 1,
     "jobs": [{
         "type": "docker",
-        "name": "build-and-test",
+        "name": "hello-world",
         "resources": { "limits": { "cpu": 1, "memory": 2048 } },
         "build_only": false,
-        "docker_file": "cpp_example/infrabox/build-and-test/Dockerfile"
+        "docker_file": "hello_world/Dockerfile"
     }]
 }
