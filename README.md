@@ -43,7 +43,8 @@ For more details on how to run jobs see the *infraboxcli* [documentation](https:
 14. [GIT Workflows](/git_workflows): Included external workflows into your build
 15. Services
     - [Kubernetes Namespace](/service_namespace): Provision a Kubernetes namespaces for your tests
-    - [Kubernetes Cluster (GKE)](/service_gke): Provision a Kubernetes Cluster for your tests
+    - [Kubernetes Cluster (GKE)](/service_gke): Provision a GKE Kubernetes Cluster for your tests
+    - [Kubernetes Gardener](/service_gardener): Provision a Gardener Kubernetes Cluster for your tests
 16. [Dynamic Workflows](/dynamic_workflows): Modify your job graph at runtime for full flexibility
 17. [Build and use Image](/build_and_use_image): In the same build
 
