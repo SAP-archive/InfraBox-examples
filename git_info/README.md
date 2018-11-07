@@ -17,5 +17,5 @@ COPY . /my-git-repo
 - [Dockerfile](Dockerfile): you must install git in your Dockerfile to be able to use it
 - [entrypoint.sh](entrypoint.sh): use git commands
 
-Per default InfraBox does not clone the full repository, but only the most recent commits. If you need the entire repository to may configure this in your job definition.
+Per default InfraBox does not clone the full repository, but only the most recent commits. If you need the entire repository you may configure this in your job definition.
 See the [Repository Configuration Documentation](https://github.com/SAP/InfraBox/blob/master/docs/job/repository.md) for a explanation about the options.
