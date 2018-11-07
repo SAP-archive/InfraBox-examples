@@ -47,6 +47,7 @@ For more details on how to run jobs see the *infraboxcli* [documentation](https:
     - [Kubernetes Gardener](/service_gardener): Provision a Gardener Kubernetes Cluster for your tests
 16. [Dynamic Workflows](/dynamic_workflows): Modify your job graph at runtime for full flexibility
 17. [Build and use Image](/build_and_use_image): In the same build
+18. [Access git information](/git_info): Access the cloned git repository
 
 ## External Service Integrations
 1. [Slack](/slack): Report your build status
