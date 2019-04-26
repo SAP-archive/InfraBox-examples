@@ -21,4 +21,4 @@ We set the timeout to 10 seconds, but our container sleeps for 20 seconds so you
 
 The default timeout is 3600 seconds (1 hour).
 
-See also the [documentation](http://192.168.1.31:30080/docs/#workflow-config).
+See also the [documentation](https://github.com/SAP/InfraBox/blob/master/docs/job/docker.md).
