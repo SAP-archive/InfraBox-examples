@@ -1,3 +1,8 @@
+![](https://img.shields.io/badge/STATUS-NOT%20CURRENTLY%20MAINTAINED-red.svg?longCache=true&style=flat)
+
+# Important Notice
+This public repository is read-only and no longer maintained.
+
 # InfraBox Examples
 This repo contains examples for [InfraBox](https://github.com/SAP/InfraBox), a continuous integration system.
 
